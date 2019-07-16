@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/Reset"
+        android:icon="@drawable/ic_reset"
+        android:title="Reset"
+        app:showAsAction="withText|always"/>
+
+    <item android:id="@+id/previous"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="Previous" />
+
+    <item android:id="@+id/random"
+        android:icon="@android:drawable/ic_menu_call"
+        android:title="Random" />
+
+    <item android:id="@+id/next"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="Next" />
+</menu>
